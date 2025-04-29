@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سنتر بكار - كل ما تحتاجه لمنزلك</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #f43f5e, #6ee7b7);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeInBody 2s ease;
+    }
+
+    @keyframes fadeInBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .container {
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 32px 24px;
+      max-width: 650px;
+      width: 95%;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(6px);
+      animation: slideIn 1.5s ease;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .main-image {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      animation: fadeInImage 2s ease;
+    }
+
+    @keyframes fadeInImage {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .shop-btn {
+      display: block;
+      margin: 10px auto;
+      padding: 14px 40px;
+      font-size: 1.1rem;
+      color: #fff;
+      background: linear-gradient(90deg, #f59e0b, #ef4444);
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(239,68,68,0.3);
+      transition: transform 0.3s ease, background 0.3s ease;
+      width: fit-content;
+      animation: pulse 2s infinite;
+    }
+
+    .shop-btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #ef4444, #f59e0b);
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 10px rgba(255,255,255,0.3); }
+      50% { box-shadow: 0 0 20px rgba(255,255,255,0.6); }
+    }
+
+    .social {
+      margin-top: 20px;
+    }
+
+    .social a {
+      margin: 0 10px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    .social a:hover {
+      color: #fcd34d;
+    }
+
+    @media (max-width: 700px) {
+      h1 { font-size: 1.6rem; }
+      p { font-size: 1rem; }
+      .shop-btn { font-size: 1rem; padding: 12px 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://pplx-res.cloudinary.com/image/upload/v1745904329/user_uploads/OyzMYQnHvTNGjEn/1000414025.jpg" alt="سنتر بكار" class="main-image" />
+    <h1>مرحبا بك في <strong>#سنتر_بكار</strong></h1>
+    <p>🔥 التنوع اللي مش هتلاقيه في مكان تاني! <br>
+      🏠 أدوات منزلية بجودة عالية وتشكيلة واسعة لكل احتياجاتك<br>
+      🛒 عروض لا تقاوم وتخفيضات هائلة<br>
+      💲 أسعار مميزة تناسب كل الميزانيات<br>
+      🛍️ تجربة تسوق فريدة... رضاكم هدفنا الأول!
+    </p>
+    <a class="shop-btn" href="https://wa.me/+201014404500" target="_blank">تسوق الآن - 01014404500</a>
+    <a class="shop-btn" href="https://wa.me/+201063309131" target="_blank">تسوق الآن - 01063309131</a>
+
+    <div class="social">
+      <p>تابعنا على:</p>
+      <a href="https://www.facebook.com/share/1BYfGxjyqk/" target="_blank">فيسبوك</a>
+      |
+      <a href="https://www.instagram.com/centerbakar?igsh=aDdmeWpoMWlsaWg=" target="_blank">إنستجرام</a>
+    </div>
+    
+    <p style="margin-top: 20px;">📍 العنوان: بيبان - كوم حماده - البحيرة</p>
+  </div>
+</body>
+</html>
